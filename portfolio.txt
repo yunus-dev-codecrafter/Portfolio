@@ -1,364 +1,226 @@
-# Build a Premium Developer Portfolio for Yunus Abdulhameed Zakari
+# Task: Professionally Upgrade My Existing Developer Portfolio
 
-Act as a senior frontend developer, UI/UX designer, accessibility specialist, and technical mentor. Build a complete, professional developer portfolio website using HTML5, CSS3, and vanilla JavaScript.
+You are a senior frontend engineer, UI/UX designer, accessibility specialist, and technical reviewer. Your task is to audit and improve my existing portfolio website in its current repository.
 
-Do not just create a generic template. Build a distinctive, polished portfolio that presents my real skills, projects, and professional background honestly.
+**Live website:** https://yunus-dev-codecrafter.github.io/Portfolio/
+**GitHub username:** `yunus-dev-codecrafter`
+**Location:** Kaduna, Nigeria
+**Email:** [yunusabdulhameed1@gmail.com](mailto:yunusabdulhameed1@gmail.com)
+**Phone/WhatsApp:** +234 916 886 2025
 
-## 1. My Professional Identity
+## 1. Main objective
 
-* **Name:** Yunus Abdulhameed Zakari
-* **Professional title:** Frontend Developer | Aspiring Full-Stack Developer
-* **Tagline:** I build responsive, user-friendly websites with clean design and practical functionality.
-* **Target audience:** Employers, recruiters, freelance clients, and potential collaborators.
-* **Location:** Kaduna, Nigeria.
-* **Email:** [yunusabdulhameed1@gmail.com](mailto:yunusabdulhameed1@gmail.com)
-* **WhatsApp:** +234 916 886 2025
-* **GitHub:** https://github.com/yunus-dev-codecrafter
-* **LinkedIn:** Not currently provided. Do not invent a profile.
+Transform my existing portfolio into a polished, professional, trustworthy website that helps me:
 
-## 2. Technology Requirements
+* Attract freelance clients and paid web-development projects.
+* Apply for local and remote developer jobs.
+* Demonstrate my actual technical abilities through working projects.
+* Build credibility without a university degree or exaggerated professional claims.
 
-Use only:
+Do not rebuild the project blindly. First inspect the repository, existing implementation, assets, dependencies, responsiveness, and deployment configuration. Preserve working functionality and improve the existing codebase wherever practical.
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
+## 2. Professional positioning
 
-Do not use React, Tailwind CSS, Bootstrap, or other frontend frameworks.
+Use this professional identity consistently:
 
-Avoid unnecessary dependencies. Use semantic HTML, modular CSS, and well-organized JavaScript. Use native browser APIs where appropriate.
+**Yunus Zakari Abdulhameed**
+**Front-End & PHP Web Developer | Growing Toward Full-Stack Development**
 
-The website must work as a static website and be suitable for GitHub Pages deployment.
+My established skills include:
 
-## 3. Visual Design
+* HTML5 and CSS3.
+* JavaScript and DOM manipulation.
+* Responsive web design.
+* PHP and MySQL application development.
+* Git and GitHub.
+* Website deployment and maintenance.
 
-Create a premium, modern, dark developer portfolio with a distinctive visual identity.
+React and Node.js are technologies I am developing further. Present them as learning or developing skills unless the repository and my actual work establish stronger proficiency.
 
-Color palette:
+Do not invent a university degree, NYSC service, employment history, client testimonials, project metrics, certifications, or professional achievements.
 
-* Main background: #0B0D12
-* Card and surface background: #171A23
-* Primary accent: #3B82F6
-* Main text: #F8FAFC
-* Secondary text: #A1A1AA
-* Borders: subtle dark gray
+## 3. Visual design and user experience
 
-Design direction:
+Create a modern, premium-looking developer portfolio with:
 
-* Split hero layout: introduction on the left, professional photo on the right.
-* Large, confident typography with excellent readability.
-* Generous whitespace and consistent spacing.
-* Refined project cards with large screenshots.
-* Subtle blue highlights and restrained gradients.
-* Smooth scrolling and tasteful entrance animations.
-* Subtle hover and focus effects.
-* A clean, professional navigation bar.
-* Consistent design tokens using CSS custom properties.
-* A mobile-first responsive layout.
+* Strong typography and a clear visual hierarchy.
+* A consistent, restrained colour palette.
+* Excellent spacing and readable content.
+* Professional project cards with real screenshots.
+* Subtle animations only where they improve the experience.
+* Clear calls to action.
+* A consistent design across desktop, tablet, and mobile.
+* An accessible mobile navigation menu.
+* Good contrast, keyboard accessibility, and visible focus states.
 
-Avoid excessive glowing effects, unnecessary glassmorphism, excessive rounded cards, distracting animations, and generic AI-template aesthetics.
+Avoid excessive gradients, distracting animations, generic stock illustrations, unnecessary effects, and oversized sections that bury my projects.
 
-The finished website should feel carefully designed, not overloaded.
+The result should look like a real developer's professional portfolio, not a generic AI-generated template.
 
-## 4. Website Structure
+## 4. Homepage and content
 
-Build a single-page portfolio with these sections:
+Improve the hero section with my name, professional title, concise introduction, and these actions:
 
-### A. Navigation
+* View My Projects.
+* Contact Me.
+* Download CV.
 
-* Display my name or a simple text-based wordmark.
-* Include About, Skills, Projects, Experience, Services, and Contact links.
-* Include a prominent contact call to action.
-* Implement a responsive mobile navigation menu.
-* Ensure keyboard accessibility and correct mobile-menu behavior.
+Make it immediately clear what I build and how prospective clients can hire me.
 
-### B. Hero Section
+Rewrite the About section to communicate my practical experience, self-directed learning, educational software projects, and interest in solving real problems. Keep the language confident but honest.
 
-Use this exact headline:
+## 5. Skills section
 
-"Frontend Developer | Aspiring Full-Stack Developer"
+Organize skills into clear categories:
 
-Use this tagline:
+**Currently used:** HTML5, CSS3, JavaScript, responsive design, PHP, MySQL, Git, GitHub, and deployment.
 
-"I build responsive, user-friendly websites with clean design and practical functionality."
+**Developing further:** React, Node.js, and any other technologies confirmed by inspecting my current work.
 
-Include:
+Do not assign proficiency percentages or progress bars that imply measured expertise. Do not list technologies merely because they appear in a dependency file.
 
-* My full professional name.
-* A concise introduction.
-* A primary button linking to the projects section.
-* A secondary button linking to the contact section.
-* A professional photo area on the right.
-* A subtle indication that I am open to suitable opportunities, without inventing availability details.
+## 6. Featured projects
 
-I will provide my photo later. Create a polished photo placeholder that can be replaced easily with a local image. Do not generate a fake portrait or use an unrelated person's photo.
+Use these three projects as the main portfolio items.
 
-### C. About Me
-
-Write a concise, professional introduction using only the background and facts provided in this prompt.
-
-Present me as a developer who builds practical web solutions and is developing toward full-stack engineering.
-
-Emphasize practical projects, continuous learning, problem-solving, and the ability to work with existing codebases.
-
-Do not invent employment history, degrees, awards, client testimonials, years of professional software development experience, or commercial achievements.
-
-### D. Technical Skills
-
-Organize skills into honest categories.
-
-Frontend:
-
-* HTML5
-* CSS3
-* JavaScript
-* Responsive web design
-* DOM manipulation
-
-Tools:
-
-* Git
-* GitHub
-* Visual Studio Code
-
-Developing skills:
-
-* React
-* Node.js
-* PHP
-* SQL and MySQL
-
-Clearly distinguish skills I actively use from technologies I am still learning. Do not represent every technology as an expert-level skill.
-
-Use clean skill labels or compact groups rather than arbitrary skill-percentage bars.
-
-### E. Featured Projects
-
-Create three project cards using the following verified project destinations.
-
-PROJECT 1: Fikra To-Do App
+### A. Fikra To-Do App
 
 Live demo:
 https://yunus-dev-codecrafter.github.io/fikrah-To-Do-app/
 
 Repository:
-https://github.com/yunus-dev-codecrafter/fikrah-To-Do-app
+Find the exact repository in my GitHub profile or existing portfolio source.
 
-Technology: HTML, CSS, JavaScript.
+Explain the actual features, including daily task tracking and Arabic/English support, after verifying them in the code.
 
-Present this as a task-management project demonstrating practical frontend development. Inspect the repository or existing project information before describing additional features.
-
-PROJECT 2: Lisanun Mubeen Academy
+### B. Lisanun Mubeen Academy
 
 Live website:
 https://lisanacademy.infinityfreeapp.com
 
 Repository:
-https://github.com/yunus-dev-codecrafter/lisanacademy
+Find the existing repository linked in my portfolio or GitHub profile.
 
-Technology: PHP, JavaScript, MySQL, HTML, and CSS, subject to verification against the actual codebase.
+Describe the real PHP/MySQL educational platform, registration and authentication features, administrative workflows, and other functionality only after checking what currently works.
 
-Present this as an educational platform I have worked on. Do not claim that every feature is operational without checking.
-
-PROJECT 3: Rafeequl Hifz V2
+### C. Rafeequl Hifz V2
 
 Repository:
 https://github.com/yunus-dev-codecrafter/rafeequl-hifz-v2
 
-Technology and live-demo availability: inspect and verify before displaying specific claims.
+Live demo currently listed on the portfolio:
+https://rafeequlhifz.infy.click
 
-Present this as another software project, with an accurate description based on the actual repository.
+Verify that the demo remains accessible before presenting it as live.
 
-Project card requirements:
+Describe the Qur'an memorization logbook, its PHP/MySQL backend, right-to-left interface, and PWA functionality based on the actual implementation.
 
-* A large project screenshot or a genuine local screenshot captured from the actual project.
-* Project name.
-* Concise, factual description.
-* Technology tags verified against the project.
-* A live-demo link where available.
-* A GitHub repository link.
-* Clear accessible link labels.
-* Refined hover and focus states.
+For every project:
 
-Do not invent screenshots, product features, usage statistics, user counts, or performance results.
+* Replace placeholder images with genuine screenshots from the actual application.
+* Use consistent screenshot sizes and attractive project cards.
+* Explain the problem solved, my contribution, key features, and technology stack.
+* Include clearly labelled Live Demo and Source Code links where available.
+* Mark incomplete functionality honestly.
+* Never invent users, revenue, performance statistics, or business outcomes.
+* Do not expose passwords, API keys, database credentials, personal student data, or other secrets in screenshots.
 
-If a screenshot is unavailable, use a tasteful neutral placeholder and make it easy to replace later.
+## 7. Open-source contributions and experience
 
-### F. Experience and Contributions
+Inspect my public GitHub profile and available repository history.
 
-Create a professional section highlighting relevant practical experience.
+Replace any unfinished placeholder content with verified open-source contributions, such as selected merged pull requests and meaningful issue-based work.
 
-Include my open-source contributions where supported by my GitHub profile or repository history.
+Use exact repository names and pull-request links where verifiable. Do not claim a contribution was merged unless confirmed.
 
-GitHub:
-https://github.com/yunus-dev-codecrafter
+Distinguish between:
 
-You may inspect publicly available repository information, but do not invent contribution counts, merged pull requests, job titles, employment dates, or achievements.
+* Independent projects.
+* Open-source contributions.
+* Formal employment.
+* Freelance client work.
 
-If a fact cannot be verified, omit it or leave a clearly marked placeholder for me to complete.
+Do not invent client projects, employment dates, or testimonials.
 
-Keep this section concise and relevant to software development.
+My educational teaching and school leadership background can be included briefly where relevant, but the website should primarily target software-development opportunities.
 
-### G. Services
+## 8. Services and client conversion
 
-Present suitable services aligned with my demonstrated abilities:
+Present services I can realistically deliver:
 
-* Responsive website development.
-* Landing page development.
-* Website improvements and bug fixes.
-* Frontend implementation from design references.
+* Responsive business and school websites.
+* Landing pages and portfolio websites.
+* PHP/MySQL web applications within my current capabilities.
+* Existing website improvements and bug fixes.
 * Basic website maintenance.
+* Website deployment and setup.
 
-Do not advertise advanced backend or AI engineering services as established professional expertise.
+Do not promise advanced enterprise systems or complex integrations without evidence of my ability to deliver them.
 
-Include a clear call to action directing potential clients to contact me.
+Make WhatsApp a prominent contact option, using the correct international number and a working link to:
 
-### H. Contact Section
+https://wa.me/2349168862025
 
-Display:
+Use:
+[yunusabdulhameed1@gmail.com](mailto:yunusabdulhameed1@gmail.com)
 
-* Email: [yunusabdulhameed1@gmail.com](mailto:yunusabdulhameed1@gmail.com)
-* WhatsApp: +234 916 886 2025
-* GitHub: https://github.com/yunus-dev-codecrafter
+Include a professional call to action inviting clients to discuss their requirements and request a quote. Do not invent pricing or testimonials.
 
-Implement:
+## 9. CV integration
 
-* A working email link using mailto.
-* A WhatsApp link using https://wa.me/2349168862025.
-* An external GitHub profile link.
+Add a prominent Download CV button.
 
-If you implement a contact form, do not pretend it sends messages without a functioning backend. Prefer a simple, honest contact interface that works on a static website.
+First inspect the repository for an existing CV. If no finalized CV exists, prepare the portfolio to link to a PDF placed in a clearly documented location, such as `assets/Yunus_Zakari_Abdulhameed_CV.pdf`.
 
-### I. Footer
+Do not create a CV containing unverified qualifications or employment details. Do not link to a nonexistent file.
 
-Include:
+Make the PDF filename and download behaviour consistent.
 
-* My professional name.
-* A concise copyright notice using the current year dynamically.
-* Links to the relevant sections.
-* A return-to-top link if it fits the design.
+## 10. Technical quality and SEO
 
-## 5. Interactions and Animations
+Audit and improve:
 
-Implement:
+* Mobile responsiveness and layout overflow.
+* Navigation and all internal section links.
+* All project and contact links.
+* Image loading, dimensions, and alternative text.
+* Semantic HTML and accessible controls.
+* Page titles, meta descriptions, canonical URL where appropriate, and social sharing metadata.
+* GitHub Pages deployment paths and asset URLs.
+* Performance and unnecessary dependencies.
+* Browser console errors.
+* Broken or unfinished sections.
 
-* Smooth section navigation.
-* Responsive mobile navigation.
-* Subtle reveal-on-scroll animations.
-* Polished project-card hover effects.
-* Clear button states.
-* Accessible keyboard focus indicators.
+Respect the existing framework and project structure. Do not migrate to a different framework merely for preference.
 
-Use IntersectionObserver for reveal animations where appropriate.
+Do not add a backend, database, contact form requiring a server, or paid third-party service unless genuinely necessary. A reliable email and WhatsApp contact flow is sufficient.
 
-Respect the prefers-reduced-motion media query. The site must remain usable if JavaScript animations are unavailable.
+## 11. Required workflow
 
-Avoid excessive animation libraries and unnecessary JavaScript.
+Work in this order:
 
-## 6. Responsive Design and Accessibility
+1. Inspect the repository and report the current stack, structure, and main issues.
+2. Identify factual inconsistencies, placeholder content, and broken links.
+3. Implement the improvements directly in the existing codebase.
+4. Use real project screenshots where available; if a screenshot cannot be obtained, do not fabricate one. Explain what asset is needed.
+5. Run the available build, lint, and test commands.
+6. Test responsive behaviour and verify project/contact links wherever the environment permits.
+7. Fix issues introduced by your changes.
+8. Check that the GitHub Pages deployment configuration still works.
 
-Test the layout at mobile, tablet, laptop, and wide-desktop sizes.
+Do not claim that a test, link, build, or deployment succeeded unless you actually verified it.
 
-Requirements:
+Do not deploy, push, or publish changes without my explicit authorization.
 
-* No horizontal overflow.
-* Readable text at small screen sizes.
-* Touch-friendly controls.
-* Semantic HTML landmarks.
-* Correct heading hierarchy.
-* Descriptive image alt text.
-* Accessible navigation and buttons.
-* Sufficient text contrast.
-* Visible keyboard focus.
-* Appropriate form labels if a form exists.
+## 12. Final report
 
-## 7. SEO and Performance
+When finished, summarize:
 
-Implement:
+* What was improved.
+* Which files were changed.
+* Which checks and tests passed or failed.
+* Any screenshots, CV files, or other assets I still need to provide.
+* Any factual details I must verify.
+* The exact commands I should run to test and publish the finished website.
 
-* A descriptive page title.
-* A useful meta description.
-* Viewport and character-encoding metadata.
-* Open Graph metadata where appropriate.
-* A custom favicon or simple text-based alternative.
-* Descriptive image filenames.
-* Optimized image dimensions and formats where practical.
-* Lazy loading for below-the-fold images.
-* No unnecessary dependencies or oversized assets.
-
-Do not add fabricated structured data, testimonials, ratings, or professional credentials.
-
-## 8. Code Quality
-
-Use a simple, understandable project structure, for example:
-
-portfolio/
-index.html
-css/
-style.css
-js/
-script.js
-assets/
-images/
-icons/
-README.md
-
-Adjust the structure if there is a clear technical reason.
-
-Requirements:
-
-* Maintainable and readable code.
-* Consistent naming conventions.
-* Reusable CSS variables and components.
-* No duplicated code without a good reason.
-* No broken links or missing assets.
-* No JavaScript console errors.
-* No placeholder buttons that do nothing.
-* No hardcoded fake contact details.
-* No unnecessary build tools.
-
-## 9. Working Process
-
-Follow these stages in order.
-
-STAGE 1 — Inspect:
-
-* Inspect the current working directory and available files.
-* Identify whether a project already exists.
-* Do not overwrite unrelated files or an existing project without permission.
-* Check available tools and testing options.
-* Report the intended file structure and implementation plan briefly.
-
-STAGE 2 — Implement:
-
-* Build the complete initial website.
-* Keep HTML, CSS, and JavaScript organized.
-* Make the initial version functional rather than delivering only a mockup.
-* Use real project destinations and the contact details supplied above.
-
-STAGE 3 — Verify:
-
-* Run available HTML, JavaScript, and link checks.
-* Test the navigation and interactions.
-* Test responsive layouts using available browser tools, if present.
-* Check the browser console for errors when browser testing is available.
-* Verify all project and contact links.
-* Fix issues discovered during testing.
-* Do not claim a test passed if it was not actually run.
-
-STAGE 4 — Report:
-
-* Summarize the files created or modified.
-* Explain how to run the website locally.
-* Explain how to replace the photo placeholder.
-* Explain how to update project screenshots and descriptions.
-* Provide clear GitHub Pages deployment instructions.
-* List anything that still requires my verification.
-
-Work autonomously within these requirements. Make sensible design decisions without repeatedly asking me to approve minor details. Ask before destructive changes or actions that could overwrite unrelated work.
-
-## Final Objective
-
-Deliver a complete, premium, responsive portfolio that presents my real work convincingly, helps employers understand my capabilities, and makes it easy for freelance clients to contact me.
-
-Prioritize design quality, accurate claims, working functionality, maintainable code, and a successful mobile experience over unnecessary complexity.
+**Priority:** Build trust, showcase real work, make it easy to contact me, and help me obtain genuine freelance opportunities and developer jobs. Keep every claim honest and make the site production-ready.
