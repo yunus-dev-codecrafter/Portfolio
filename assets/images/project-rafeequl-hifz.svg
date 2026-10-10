@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Rafeequl Hifz V2 screenshot placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14171F"/>
+      <stop offset="100%" stop-color="#1C2030"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="64" y="56" width="512" height="288" rx="10" fill="#171A23" stroke="#262A36"/>
+
+    <rect x="64" y="56" width="512" height="48" rx="10" fill="#1C2030"/>
+    <rect x="64" y="92" width="512" height="12" fill="#1C2030"/>
+    <rect x="448" y="74" width="100" height="14" rx="4" fill="#3B82F6"/>
+    <rect x="92" y="74" width="140" height="14" rx="4" fill="#333848"/>
+
+    <rect x="96" y="132" width="448" height="150" rx="8" fill="#1C2030" stroke="#262A36"/>
+    <g fill="#2C3141">
+      <rect x="420" y="158" width="100" height="10" rx="4"/>
+      <rect x="420" y="178" width="86" height="10" rx="4"/>
+      <rect x="420" y="198" width="94" height="10" rx="4"/>
+      <rect x="420" y="218" width="78" height="10" rx="4"/>
+      <rect x="420" y="238" width="96" height="10" rx="4"/>
+    </g>
+    <g fill="#333848">
+      <rect x="124" y="158" width="96" height="10" rx="4"/>
+      <rect x="124" y="178" width="104" height="10" rx="4"/>
+      <rect x="124" y="198" width="88" height="10" rx="4"/>
+      <rect x="124" y="218" width="100" height="10" rx="4"/>
+      <rect x="124" y="238" width="82" height="10" rx="4"/>
+    </g>
+    <rect x="310" y="150" width="1" height="114" fill="#3B82F6" opacity="0.5"/>
+
+    <g>
+      <rect x="96" y="300" width="140" height="26" rx="6" fill="#3B82F6"/>
+      <rect x="250" y="300" width="140" height="26" rx="6" fill="none" stroke="#333848"/>
+      <rect x="404" y="300" width="140" height="26" rx="6" fill="none" stroke="#333848"/>
+    </g>
+
+    <text x="320" y="392" text-anchor="middle" font-size="15" fill="#A1A1AA">Screenshot placeholder — Rafeequl Hifz V2</text>
+  </g>
+</svg>

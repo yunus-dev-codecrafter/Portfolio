@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Fikra To-Do App screenshot placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14171F"/>
+      <stop offset="100%" stop-color="#1C2030"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="64" y="56" width="512" height="288" rx="10" fill="#171A23" stroke="#262A36"/>
+
+    <rect x="64" y="56" width="512" height="52" rx="10" fill="#1C2030"/>
+    <rect x="64" y="96" width="512" height="12" fill="#1C2030"/>
+    <circle cx="94" cy="82" r="6" fill="#3B82F6"/>
+    <rect x="114" y="74" width="150" height="16" rx="4" fill="#333848"/>
+
+    <g>
+      <rect x="96" y="136" width="448" height="46" rx="6" fill="#1C2030" stroke="#262A36"/>
+      <rect x="112" y="153" width="24" height="12" rx="3" fill="#3B82F6"/>
+      <rect x="152" y="152" width="240" height="14" rx="4" fill="#333848"/>
+    </g>
+    <g>
+      <rect x="96" y="194" width="448" height="46" rx="6" fill="#1C2030" stroke="#262A36"/>
+      <rect x="112" y="211" width="24" height="12" rx="3" fill="#333848"/>
+      <rect x="152" y="210" width="190" height="14" rx="4" fill="#2C3141"/>
+    </g>
+    <g>
+      <rect x="96" y="252" width="448" height="46" rx="6" fill="#1C2030" stroke="#262A36"/>
+      <rect x="112" y="269" width="24" height="12" rx="3" fill="#333848"/>
+      <rect x="152" y="268" width="216" height="14" rx="4" fill="#333848"/>
+    </g>
+
+    <rect x="64" y="344" width="512" height="0" fill="none"/>
+
+    <text x="320" y="392" text-anchor="middle" font-size="15" fill="#A1A1AA">Screenshot placeholder — Fikra To-Do App</text>
+  </g>
+</svg>

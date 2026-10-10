@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Lisanun Mubeen Academy screenshot placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14171F"/>
+      <stop offset="100%" stop-color="#1C2030"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="64" y="56" width="512" height="288" rx="10" fill="#171A23" stroke="#262A36"/>
+
+    <rect x="64" y="56" width="512" height="48" rx="10" fill="#1C2030"/>
+    <rect x="64" y="92" width="512" height="12" fill="#1C2030"/>
+    <rect x="92" y="74" width="120" height="14" rx="4" fill="#3B82F6"/>
+    <g fill="#333848">
+      <rect x="360" y="76" width="54" height="10" rx="3"/>
+      <rect x="426" y="76" width="54" height="10" rx="3"/>
+      <rect x="492" y="76" width="54" height="10" rx="3"/>
+    </g>
+
+    <rect x="96" y="132" width="300" height="20" rx="4" fill="#333848"/>
+    <rect x="96" y="164" width="416" height="12" rx="4" fill="#2C3141"/>
+    <rect x="96" y="186" width="352" height="12" rx="4" fill="#2C3141"/>
+
+    <g>
+      <rect x="96" y="224" width="140" height="86" rx="8" fill="#1C2030" stroke="#262A36"/>
+      <rect x="250" y="224" width="140" height="86" rx="8" fill="#1C2030" stroke="#262A36"/>
+      <rect x="404" y="224" width="140" height="86" rx="8" fill="#1C2030" stroke="#262A36"/>
+      <rect x="112" y="244" width="40" height="10" rx="3" fill="#3B82F6"/>
+      <rect x="266" y="244" width="40" height="10" rx="3" fill="#3B82F6"/>
+      <rect x="420" y="244" width="40" height="10" rx="3" fill="#3B82F6"/>
+      <rect x="112" y="266" width="90" height="8" rx="3" fill="#333848"/>
+      <rect x="266" y="266" width="90" height="8" rx="3" fill="#333848"/>
+      <rect x="420" y="266" width="90" height="8" rx="3" fill="#333848"/>
+      <rect x="112" y="284" width="70" height="8" rx="3" fill="#2C3141"/>
+      <rect x="266" y="284" width="70" height="8" rx="3" fill="#2C3141"/>
+      <rect x="420" y="284" width="70" height="8" rx="3" fill="#2C3141"/>
+    </g>
+
+    <text x="320" y="392" text-anchor="middle" font-size="15" fill="#A1A1AA">Screenshot placeholder — Lisanun Mubeen Academy</text>
+  </g>
+</svg>
