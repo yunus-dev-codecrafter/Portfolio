@@ -16,8 +16,11 @@ portfolio/
 ├── css/
 │   └── style.css           # Design tokens, layout, responsive rules, accessibility
 ├── js/
-│   └── script.js           # Mobile nav, reveal-on-scroll, active section, footer year
+│   └── script.js           # Mobile drawer, reveal-on-scroll, active section, footer year
 ├── assets/
+│   ├── fonts/
+│   │   ├── inter.woff2          # Body font (variable, latin subset)
+│   │   └── space-grotesk.woff2  # Heading font (variable, latin subset)
 │   ├── images/
 │   │   ├── yunus-zakari-abdulhameed.jpg      # Optimized hero photo (600×700)
 │   │   ├── professional display picture.png  # Original source photo (uncompressed)
@@ -55,6 +58,41 @@ site is the personal profile (`https://github.com/yunus-dev-codecrafter`).
 
 If any project repo stays public and you want to link it again, add a second `.text-link`
 anchor inside that project's `.project-links` block in `index.html`.
+
+## Typography and fonts
+
+Fonts are **self-hosted** (no external requests, no Google Fonts CDN):
+
+- **Inter** — body text (`assets/fonts/inter.woff2`)
+- **Space Grotesk** — headings (`assets/fonts/space-grotesk.woff2`)
+
+Both are variable fonts served as the latin subset, declared with `@font-face` at the top of
+`css/style.css` using `font-display: swap`, and preloaded in `index.html`. System monospace is
+used for eyebrow/label accents. To change fonts, replace the woff2 files (keeping their names)
+or update the `@font-face` rules and the `--font-sans` / `--font-heading` tokens.
+
+## Mobile navigation (left drawer)
+
+Below `900px` the primary navigation is a **left slide-out drawer**:
+
+- A `.nav-backdrop` scrim (dark + `backdrop-filter: blur`) fades in behind it and closes the
+  drawer on click.
+- The drawer has its own header (title + close button), numbered links, and a footer with a
+  "Get in touch" button and GitHub / WhatsApp / email icons.
+- Opening locks body scroll, moves focus into the drawer and traps Tab; `Escape`, a link click,
+  the close button or an outside click all close it and return focus to the toggle.
+- When closed the drawer is `inert` (not tabbable); `prefers-reduced-motion` disables the slide.
+- On desktop the drawer chrome (numbers, socials, close button) is hidden and the same `<nav>`
+  renders as a horizontal menu. With JavaScript disabled, the `<noscript>` block renders a
+  plain inline nav instead.
+
+## UI enhancements
+
+- Hero credibility strip with verified counts (merged open-source PRs, live projects, certificate).
+- Numbered section eyebrows (01–07) and inline SVG icons on each Services card.
+- Gradient hero title (solid-colour fallback via `@supports`) with a soft hero glow.
+- Experience section rendered as a vertical timeline.
+- Floating "back to top" button that appears after scrolling.
 
 ## Hero photo
 
@@ -132,7 +170,9 @@ absolute URLs in the `<head>`.
 ## Accessibility & motion
 
 - Semantic landmarks, one `h1`, ordered headings, skip link, visible focus states.
-- Mobile menu: `aria-expanded`, closes on `Escape`, on link click, and on outside click.
+- Mobile drawer: `aria-expanded` + `aria-label` on the toggle, `inert` when closed, focus
+  moved in on open and trapped while open, and closed on `Escape`, a link click, the close
+  button, the backdrop, or an outside click.
 - Reveal animations use `IntersectionObserver` and are disabled automatically when the OS
   reports `prefers-reduced-motion: reduce`.
 - With JavaScript disabled the page is fully readable — all content is visible by default.
@@ -142,9 +182,9 @@ absolute URLs in the `<head>`.
 **Verified**
 
 - Contact details: email, WhatsApp (`+234 916 886 2025`) and GitHub are the real accounts.
-- Open-source contributions: the four pull requests listed in the Experience section
-  (QuickLendX #2792, CredenceOrg/Credence-Backend #1486, DelegoLabs/Delego-backend #409,
-  bridgelet #744 & #743) are merged, confirmed via the GitHub API.
+- Open-source contributions: 100+ pull requests merged across open-source projects. The four
+  listed in the Experience section (QuickLendX #2792, CredenceOrg/Credence-Backend #1486,
+  DelegoLabs/Delego-backend #409, bridgelet #744 & #743) are confirmed merged via the GitHub API.
 - Live links: the portfolio and all three project demos return HTTP 200.
 
 **Needs your input**
