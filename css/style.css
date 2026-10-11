@@ -483,7 +483,7 @@ body.menu-open {
 
 .hero {
   position: relative;
-  padding-block: clamp(3rem, 8vw, 5.5rem) var(--space-section);
+  padding-block: clamp(3rem, 8vw, 5.5rem) clamp(2rem, 5vw, 3rem);
   background:
     radial-gradient(900px 420px at 85% -10%, rgba(59, 130, 246, 0.18), transparent 65%),
     radial-gradient(650px 380px at 8% 22%, rgba(139, 92, 246, 0.14), transparent 70%),
@@ -644,6 +644,10 @@ body.menu-open {
 
 .section {
   padding-block: var(--space-section);
+}
+
+#about {
+  padding-top: clamp(2rem, 5vw, 3rem);
 }
 
 .section-alt {
@@ -1266,24 +1270,6 @@ body.menu-open {
 /* =========================================================
    Responsive
    ========================================================= */
-
-@media (max-width: 899px) {
-  .hero-media {
-    width: clamp(220px, 62%, 340px);
-    justify-self: center;
-  }
-
-  .photo-frame {
-    padding: 0.6rem;
-  }
-
-  .photo-caption {
-    left: 1rem;
-    bottom: 1rem;
-    font-size: 0.7rem;
-    padding: 0.3rem 0.6rem;
-  }
-}
 
 @media (min-width: 720px) {
   .skill-groups {
