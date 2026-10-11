@@ -718,6 +718,56 @@ section[id],
 }
 
 /* =========================================================
+   Certifications
+   ========================================================= */
+
+.cert-card {
+  display: grid;
+  gap: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: clamp(1.35rem, 3vw, 1.85rem);
+}
+
+.cert-issuer {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+
+.cert-title {
+  font-size: clamp(1.2rem, 2.6vw, 1.5rem);
+  margin-bottom: 0.35rem;
+}
+
+.cert-date {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.85rem;
+}
+
+.cert-desc {
+  color: var(--text-muted);
+  max-width: 70ch;
+}
+
+.cert-action {
+  margin: 0;
+}
+
+@media (min-width: 720px) {
+  .cert-card {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}
+
+/* =========================================================
    Services
    ========================================================= */
 
@@ -747,6 +797,32 @@ section[id],
 .service-desc {
   color: var(--text-muted);
   font-size: 0.95rem;
+}
+
+.service-group-title {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 1.1rem;
+}
+
+.service-grid + .service-group-title {
+  margin-top: clamp(2.25rem, 5vw, 3rem);
+}
+
+.service-stack {
+  margin-top: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
+.service--learning {
+  border-style: dashed;
 }
 
 .services-cta {
@@ -819,6 +895,12 @@ section[id],
 .contact-value:hover {
   color: var(--accent);
   border-bottom-color: var(--accent);
+}
+
+.contact-value-static {
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  font-weight: 600;
+  color: var(--text);
 }
 
 .contact-note {
